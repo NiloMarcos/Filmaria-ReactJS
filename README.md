@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Filmaria
+Filmaria e uma aplicação, para marcar alguns filmes a serem salvos.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Filmaria marca alguns filmes como favoritos, tambem mostra as que foram
+salvas na area de favoritos, podendo excluir quando quiser.
 
-## Available Scripts
+### Filmaria
+A aplicação consistirá em 3 telas, contendo as informacoes para registrar novo filme.
+* Uma area onde sera mostrada todos os filmes.
+* Uma tela onde mostra todos os filmes salvos como favoritos.
+* Uma tela onde podera excluir dos favoritos.
+* Uma tela de Not-Found, caso queria navegar em uma tela nao existente.
 
-In the project directory, you can run:
+### Dinamica
+No momento em que o filme e registrado, a mesma ira aparecer na tela de 'Salvos' e mostrando o mesmo,
+apos ser concluida podera remove-la da area de 'Salvos', atravez do button 'Excluir'. Apos concluida,
+podera registar um novo filmes quantas vezes quiser.
 
-### `yarn start`
+### Plataforma
+A aplicação esta disponivel apenas para o ambiente Web, compativel com as ultimas versoes do mercado.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Dados Tecnicos
+* O projeto foi desenvolvido na linguagem JavaScript e Framework ReactJS.
+* A plataforma na qual a aplicacao dará suporte sera para Web.
+* O Código Fonte ficará armazenado em um repositório do GitHub.
+* O aplicativo não armazena informações de usuários.
+* As informações de registro de filmes serão aramazenadas através do consumo de uma API.
+* Os dados serão obtidos em formato JSON.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Como Rodar A Aplicacao
+Se apos a clonagem do repositório e dado o 'npm start', nao rodar, bem provavel que tera que instalar as dependencias,
+que form instaladas para o desenvolvimento do projeto. "So instalar se caso nao rodar diretamente".
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* npm install react-router-dom.
+* npm install axios.
